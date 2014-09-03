@@ -1,18 +1,21 @@
 {
-  "name": "pretty-date",
-  "version": "0.2.0",
-  "description": "format old JavaScript dates in a “pretty” way. ex : 2 hours ago , 3 minutes ago",
+  "name": "data-bonita",
+  "version": "0.0.1",
+  "description": "format old JavaScript dates in a “pretty” way, in portuguese",
   "main": "index.js",  
   "repository": {
     "type": "git",
-    "url": "https://github.com/netcode/node-prettydate.git"
+    "url": "https://github.com/fiatjaf/data-bonita.git"
   },
   "keywords": [
-    "date"
+    "date", "data", "portuguese", "mês", "dia", "ano", "meses", "dias", "anos", "segundos", "minutos"
   ],
-  "author": "netcode",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "Giovanni",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/netcode/node-prettydate/issues"
+    "url": "https://github.com/fiatjaf/data-bonita/issues"
   }
 }

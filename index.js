@@ -20,6 +20,10 @@ var formatters = [
 ];
 
 var delta = function (date) {
+  if (typeof date == 'number') {
+    date = new Date(date)
+  }
+
   var diff = (((new Date()).getTime() - date.getTime()) / 1000);
   for( var i=0; i<formatters.length; i++ ) {
     if ( diff < formatters[i].threshold ) {
@@ -45,6 +49,9 @@ var months = [
 ]
 
 var fulldate = function (date, time) {
+  if (typeof date == 'number') {
+    date = new Date(date)
+  }
   var x = date;
 
   var prettyDate = x.getDate() + ' de ' + months[x.getMonth()] + ' de ' + x.getFullYear()

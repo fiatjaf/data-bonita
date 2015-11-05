@@ -1,6 +1,6 @@
 {
   "name": "data-bonita",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "format old JavaScript dates in a “pretty” way, in portuguese",
   "main": "index.js",  
   "repository": {

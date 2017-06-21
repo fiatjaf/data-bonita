@@ -12,7 +12,7 @@ A fork of [pretty-date](https://www.npmjs.org/package/pretty-date) that outputs 
 > console.log(bonita.delta(new Date("Fri Aug 23 2013 17:30:34 GMT+0200 (EET)")));
 1 ano atrás
 > console.log(bonita.abs(new Date("Fri Aug 23 2013 17:30:34 GMT+0200 (EET)")));
-23 de Agosto de 2013
+23 de agosto de 2013
 ```
 
 ## .delta(date)
@@ -64,17 +64,17 @@ console.log( bonita.abs( new Date( new Date() - 365*24*60*60*1000 )));
 console.log( bonita.abs( new Date( new Date() - 2*365*24*60*60*1000 )));
 
 /* outputs
-3 de Setembro de 2014
-3 de Setembro de 2014
-3 de Setembro de 2014
-3 de Setembro de 2014
-3 de Setembro de 2014
-3 de Setembro de 2014
-2 de Setembro de 2014
-1 de Setembro de 2014
-4 de Agosto de 2014
-5 de Julho de 2014
-3 de Setembro de 2013
-3 de Setembro de 2012
+3 de setembro de 2014
+3 de setembro de 2014
+3 de setembro de 2014
+3 de setembro de 2014
+3 de setembro de 2014
+3 de setembro de 2014
+2 de setembro de 2014
+1 de setembro de 2014
+4 de agosto de 2014
+5 de julho de 2014
+3 de setembro de 2013
+3 de setembro de 2012
 */
 ```
